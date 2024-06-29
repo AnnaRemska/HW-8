@@ -1,0 +1,86 @@
+h3:first-child {
+    color: pink
+}
+
+#greycol{
+    color: grey
+}
+
+div + div > p {
+    color: red
+}
+
+h3:last-child {
+    color: none
+}
+
+div + h3 + p {
+    color: green
+}
+
+[class="yellow"] {
+    color: yellow
+}
+
+
+
+.monday td  {
+    background-color: #ff9999;
+    padding: 10px;
+}
+
+.tuesday td {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.wednesday td {
+    background-color: beige;
+    padding: 10px;
+}
+
+.thursday td {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.friday td {
+    background-color: bisque;
+    padding: 10px;
+}
+
+td:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+td:first-child:hover {
+    font-weight: bold;
+}
+
+td:last-child:hover {
+    font-style: italic;
+}
+
+td:focus {
+    outline: 2px solid #000000;
+}
+
+.monday td:nth-child(odd) {
+    background-color: #ff9999;
+}
+
+.tuesday td:nth-child(even) {
+    background-color: #99ff99;
+}
+
+.wednesday td:nth-child(3n) {
+    background-color: darkseagreen;
+}
+
+.friday td:nth-child(n+2) {
+    text-decoration: underline;
+}
+
+
+
